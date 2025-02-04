@@ -7,9 +7,9 @@ namespace name
 		public static void Main(string[] args)
 		{
 			Console.WriteLine("====Escolha uma opçao====");
-			Console.WriteLine("1 - Opçao 1");
-			Console.WriteLine("2 - Opçao 2");
-			Console.WriteLine("3 - Opçao 3");
+			Console.WriteLine("1 - Opçao 1"); //Bem vindo 
+			Console.WriteLine("2 - Opçao 2"); // ?? 
+			Console.WriteLine("3 - Opçao 3"); // sair
 			Console.WriteLine("=========================");
 			
 			string opcaoS = Console.ReadLine();
