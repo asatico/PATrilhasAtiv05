@@ -4,14 +4,14 @@ class Program
 {
     static void Main()
     {
-      Console.WriteLine("Digite um número: ");
+      Console.WriteLine("Digite um número entre -1 0 ou 1:");
       int numero = int.Parse(Console.ReadLine());
 
       switch (numero){
-        case > 0 :
+        case 1 :
           Console.WriteLine("O número e positivo.");
           break;
-        case < 0 :
+        case  -1 :
           Console.WriteLine("O número e negativo.");  
           break; 
         default:
